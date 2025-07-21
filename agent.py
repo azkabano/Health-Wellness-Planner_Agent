@@ -5,9 +5,9 @@ from tools.workout_recommender import workout_planner
 from tools.scheduler import checkin_scheduler_tool
 from tools.tracker import progress_tracker
 from context import UserSessionContext  
-from agents.injury_support_agent import injury_support_agent  # type: ignore
-from agents.nutrition_expert_agent import nutrition_expert_agent  # type: ignore
-from agents.escalation_agent import escalation_agent  # type: ignore
+from agents.injury_support_agent import injury_support_agent
+from agents.nutrition_expert_agent import nutrition_expert_agent  
+from agents.escalation_agent import escalation_agent 
 from guardrails import health_input_guardrail,health_output_guardrail
 
 health_planner_agent = Agent(
