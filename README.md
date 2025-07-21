@@ -31,7 +31,7 @@ Built with ❤️ using the **OpenAI Agents SDK**.
 
 ## 1. Clone the Repository
 ```bash
-git 
+git clone azkabano/Health-Wellness-Planner_Agent
 cd health_wellness_agent
 ```
 ---
